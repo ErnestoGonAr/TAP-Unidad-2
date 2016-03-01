@@ -11,8 +11,8 @@ public class UsaSimpleInterfaceargs {
       System.out.println("El perimetro es: "+perimetro);
     };
 
-    obj.hasAlgo(10,10);
-    obj.hasAlgo(60,80);
+    //obj.hasAlgo(10,10);
+    //obj.hasAlgo(60,80);
     obj1.calcula(5,5);
   }
 }
