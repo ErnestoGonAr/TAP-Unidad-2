@@ -131,7 +131,7 @@ public class VentanaPrincipal extends JFrame{
     //Crear MouseListener para mostrar el menu emergente
     MouseListener ml = new MouseAdapter(){
       @Override
-      public void mousePressed(MouseEvent e){
+      public void vemousePressed(MouseEvent e){
         displayPopupMenu(e);
       }
       public void mouseReleased(MouseEvent e){
@@ -140,8 +140,7 @@ public class VentanaPrincipal extends JFrame{
     };
 
     //Aagregar MouseListener al label y al textArea
-    msgText.addMouseListener(ml);
-    msgLabel.addMouseListener(ml);
+    msgText.addMouseListener(ml);    msgLabel.addMouseListener(ml);
   }
 
   private void displayPopupMenu(MouseEvent e){

@@ -71,7 +71,7 @@ public class Posicionamiento extends JFrame{
     if(x == error1){
 
     }else{
-      
+
     }
   }
 
